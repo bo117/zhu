@@ -1,0 +1,13 @@
+{
+  "_说明": "商汤 Token Plan（deepseek-v4-flash，免费但每 5 小时约 500 次调用、有 429 限流）。用 V4 flash；别碰 glm-5.2 / kimi-k3（极易 429）。desktop_export.enabled=false = 长文直接输出到对话、不强制落 docx（说『存到桌面』才存）。（示例文件：请填入自己的 API Key）",
+  "edition": "免费",
+  "api_key": "",
+  "base_url": "https://token.sensenova.cn/v1",
+  "model": "deepseek-v4-flash",
+  "server_url": "",
+  "stream_speed": 0.02,
+  "desktop_export": {
+    "enabled": false,
+    "threshold": 1000
+  }
+}

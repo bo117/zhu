@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# 模型与训练产物（在 zhu-model 仓库）
+output/
+output_*/
+models/
+base/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# 语料（在 zhu-data 仓库）
+*.jsonl
+*.zip
+
+# 本地配置与密钥
+配置.json
+魔搭凭证.json
+.env
+
+# 备份与临时
+备份/
+备份_*/
+*_备份_*.py
+_patch_b64.txt
+_test_patch/
+_随记备份_*/
+.UploadCheckFile
+.DS_Store
